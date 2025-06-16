@@ -1,0 +1,20 @@
+[{
+    "name":"Miyoko",
+    "age":28,
+    "isEmployed":true
+},
+{
+    "name":"Manish",
+    "age":23,
+    "isEmployed":false
+},
+{
+    "name":"Maya",
+    "age":26,
+    "isEmployed":true,
+},
+{
+    "name":"Minato",
+    "age":30,
+    "isEmployed":false,
+}]
