@@ -84,3 +84,25 @@
 const parsedData = JSON.parse(jsonPeople);
 console.log(jsonPeople);
 console.log(parsedData);
+
+
+//fetching
+
+
+fetch("person.json")
+   .then(response => response.json())
+   .then(value => console.log(value));
+
+
+fetch("people.json")
+.then(response => response.json())
+.then(values =>  values.forEach(value => console.log(value)))
+.catch(eror => console.error(error()));
+
+
+//for specific values we can use
+
+fetch("people.json")
+.then(response => response.json())
+.then(values =>  values.forEach(value => console.log(value.isEmployed)));
+
